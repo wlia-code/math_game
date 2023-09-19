@@ -1,6 +1,7 @@
 # Math Game!
 
 Math Game is a simple command-line arithmetic game that allows players to test and improve their mathematical abilities. Depending on the selected difficulty, players will face different arithmetic operations including addition, subtraction, multiplication, and division
+[Live Demo](https://math-game-in-python-cb475edb34c7.herokuapp.com/)
 
 ![app_Screenshot](./assets/readme_media/main.jpg)
 
@@ -72,6 +73,7 @@ Math Game is a simple command-line arithmetic game that allows players to test a
 ### Deployment
 
 - From the Heroku dashboard, select dropdown menu “New” and “Create new app”.
+- [Heroku](https://herokuapp.com/)
 - Name the app
 - Set the region to “Europe”.
 - Select “Create app”.
