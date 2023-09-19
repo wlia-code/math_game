@@ -91,3 +91,9 @@ Math Game is a simple command-line arithmetic game that allows players to test a
   - Search for the GitHub repository
   - Select “Connect”
   - Under “Manual Deploy”, select “Enable Manual Deploy”
+
+## Credits
+
+### Deployment Terminal
+
+- Code Institute
