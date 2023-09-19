@@ -1,32 +1,88 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Math Game!
 
-Welcome,
+Math Game is a simple command-line arithmetic game that allows players to test and improve their mathematical abilities. Depending on the selected difficulty, players will face different arithmetic operations including addition, subtraction, multiplication, and division
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **March 14, 2023**
+![app_Screenshot](./assets/readme_media/website_Screenshot.jpg)
 
-## Reminders
+## Features:
 
-- Your code must be placed in the `run.py` file
-- Your dependencies must be placed in the `requirements.txt` file
-- Do not edit any of the other files or your code may not deploy properly
+- **Multiple Difficulty Levels:**
 
-## Creating the Heroku app
+  - Players can choose from three difficulty levels - Easy, Medium, and Hard
 
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
+    ![Multiple_Difficulty](./assets/readme_media/Start_Game_Overlay_image.jpg)
 
-1. `heroku/python`
-2. `heroku/nodejs`
+- **Varied Operations:**
 
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
+  - Depending on the level, players will be tested on addition, subtraction, multiplication, and even division
 
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
+    ![Varied_Operations](./assets/readme_media/Footer_image.jpg)
 
-Connect your GitHub repository and deploy as normal.
+- **Score Tracking:**
 
-## Constraints
+  - The game keeps track of your score as you progress. Each correct answer increases your score
 
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
+    ![Score_Tracking](./assets/readme_media/Game_Board_image.jpg)
 
----
+- **Retry Mechanism:**
 
-Happy coding!
+  - If you get an answer wrong, don't worry! The game allows for three wrong attempts before it's game over
+
+    ![Retry_Mechanism](./assets/readme_media/Flipping_Animation_image.jpg)
+
+## Features Left to Implement:
+
+- Timer and Time's Up Message
+  - Introduce a countdown timer that starts when the player begins the game.
+    Display a "Time's Up" message when the timer reaches zero, indicating that the game is over.
+    This feature would add a sense of urgency and challenge to the game
+## Testing:
+
+- During the development of Math Game, we used systematic testing to ensure that the game functions as intended and offers a seamless experience to users
+
+ ### Manual Testing:
+    - Name Input: Ensured that the game asks for the player's name and uses it during the gameplay
+    -  Difficulty Levels: Tested whether all difficulty levels work as intended and increase in complexity
+    - Score Tracking: Made sure that the game correctly tracks and displays the score
+    - Retry Mechanism: Tested the mechanism that counts the number of wrong attempts and observed the game's response after three wrong answers
+
+### Bugs:
+
+#### Solved Bugs:
+
+- Input Acceptance Bug
+  - Earlier versions did not handle non-integer inputs for answers, leading to crashes. This was fixed using input validation
+- Game Loop Issue:
+  - Initially, when a player chose to not continue after game over, the game would unintentionally restart. This has been resolved.
+
+#### Unsolved Bugs:
+
+- No unsolved bugs
+
+### Validator Testing:
+
+- PEP 8 Online Validator:
+
+  - Initially, there were a few line length violations, which have since been resolved [PEP8 herokuapp](https://pep8ci.herokuapp.com/)
+
+## Deployment:
+
+### Deployment
+* From the Heroku dashboard, select dropdown menu “New” and “Create new app”.
+* Name the app
+* Set the region to “Europe”.
+* Select “Create app”.
+* Add Config Config Vars
+    * Enter “PORT” in the KEY field.
+    * Enter 8000 in the VALUES field.
+* Add buildpacks
+    * Select “Add buildpack”
+    * Select “python”, “Add buildpack”
+    * Select “nodejs“, Add buildpack”
+    * Ensure the buildpacks are added in this order (python folowed by nodejs)
+* Deploy the project 
+    * Select “Deploy”
+    * Select “Connect to GitHub”.
+    * Search for the GitHub repository
+    * Select “Connect”
+    * Under “Manual Deploy”, select “Enable Manual Deploy”

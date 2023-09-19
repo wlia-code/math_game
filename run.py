@@ -124,11 +124,11 @@ class MathGame:
 
 if __name__ == "__main__":
     print("\nWelcome to Math Game!")
-    name = input("\nWhat's your name: ")
+    name = input("\nWhat's your name:\n ")
     print(f"\nHello, {name}!")
 
     print("\nDifficulty Levels: \n1. Easy \n2. Medium \n3. Hard")
-    difficulty = InputHandler.get_int_input("Choose a difficulty level: ")
+    difficulty = InputHandler.get_int_input("Choose a difficulty level:\n")
 
     difficulty_mapping = {
         1: 10,
