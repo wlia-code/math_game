@@ -2,7 +2,7 @@
 
 Math Game is a simple command-line arithmetic game that allows players to test and improve their mathematical abilities. Depending on the selected difficulty, players will face different arithmetic operations including addition, subtraction, multiplication, and division
 
-![app_Screenshot](./assets/readme_media/website_Screenshot.jpg)
+![app_Screenshot](./assets/readme_media/main.jpg)
 
 ## Features:
 
@@ -10,25 +10,25 @@ Math Game is a simple command-line arithmetic game that allows players to test a
 
   - Players can choose from three difficulty levels - Easy, Medium, and Hard
 
-    ![Multiple_Difficulty](./assets/readme_media/Start_Game_Overlay_image.jpg)
+    ![Multiple_Difficulty](./assets/readme_media/Difficulty.png)
 
 - **Varied Operations:**
 
   - Depending on the level, players will be tested on addition, subtraction, multiplication, and even division
 
-    ![Varied_Operations](./assets/readme_media/Footer_image.jpg)
+    ![Varied_Operations](./assets/readme_media/subtr.png)
 
 - **Score Tracking:**
 
   - The game keeps track of your score as you progress. Each correct answer increases your score
 
-    ![Score_Tracking](./assets/readme_media/Game_Board_image.jpg)
+    ![Score_Tracking](./assets/readme_media/scor.png)
 
 - **Retry Mechanism:**
 
   - If you get an answer wrong, don't worry! The game allows for three wrong attempts before it's game over
 
-    ![Retry_Mechanism](./assets/readme_media/Flipping_Animation_image.jpg)
+    ![Retry_Mechanism](./assets/readme_media/wrong.png)
 
 ## Features Left to Implement:
 
